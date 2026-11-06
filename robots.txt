@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /reservation.html
+Disallow: /review.html
+
+Sitemap: https://florian-fradin.padelcoachs.fr/sitemap.xml

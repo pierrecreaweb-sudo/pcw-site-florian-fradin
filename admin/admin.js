@@ -858,7 +858,7 @@
   }
 
   function serviceDrawer(id, confirmDelete) {
-    const s = id ? svcById(id) : { name: "", description: "", duration_minutes: 60, price_cents: 5000, capacity: 1, level: "", location_id: null, color: "#1F6FEB", active: true };
+    const s = id ? svcById(id) : { name: "", description: "", duration_minutes: 60, price_cents: 5000, capacity: 1, level: "", location_id: null, color: "#1F6FEB", active: true, shared_slot: true, max_level_gap: 1 };
     const durations = [30, 45, 60, 75, 90, 105, 120, 150, 180, 240];
     openDrawer({
       title: id ? "Modifier la prestation" : "Nouvelle prestation",
